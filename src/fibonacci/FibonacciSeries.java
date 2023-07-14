@@ -1,8 +1,9 @@
+package fibonacci;
+
+import fibonacci.Fibonacci;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 
 import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.asserts.Assertion.*;
 
 public class FibonacciSeries {
 

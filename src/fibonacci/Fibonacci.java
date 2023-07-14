@@ -1,3 +1,5 @@
+package fibonacci;
+
 public class Fibonacci {
     public int find(int n) {
         if(n < 0) {
