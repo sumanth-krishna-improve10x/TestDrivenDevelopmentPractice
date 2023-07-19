@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="completed NameInverter.java">
-      <change afterPath="$PROJECT_DIR$/src/twomakesten/TwoMakesTen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twomakesten/TwoMakesTenTest.java" afterDir="false" />
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for TwoMakesTen.java">
+      <change afterPath="$PROJECT_DIR$/src/finddiscount/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/finddiscount/FindDiscountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,42 +46,57 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="finddiscount" />
       <recent name="twomakesten" />
       <recent name="evenNumberTest" />
       <recent name="nameInverter" />
       <recent name="scoringsystem" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TwoMakesTenTest">
-    <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindDiscountTest">
+    <configuration name="FindDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nameInverter.*" />
+          <option name="PATTERN" value="finddiscount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nameInverter" />
-      <option name="MAIN_CLASS_NAME" value="nameInverter.NameInverterTest" />
+      <option name="PACKAGE_NAME" value="finddiscount" />
+      <option name="MAIN_CLASS_NAME" value="finddiscount.FindDiscountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameInverterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDiscountTest.given1500And50_return750" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nameInverter.*" />
+          <option name="PATTERN" value="finddiscount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nameInverter" />
-      <option name="MAIN_CLASS_NAME" value="nameInverter.NameInverterTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="finddiscount" />
+      <option name="MAIN_CLASS_NAME" value="finddiscount.FindDiscountTest" />
+      <option name="METHOD_NAME" value="given1500And50_return750" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDiscountTest.givenMinus10AndMinus_returnMinus1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopmentPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finddiscount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="finddiscount" />
+      <option name="MAIN_CLASS_NAME" value="finddiscount.FindDiscountTest" />
+      <option name="METHOD_NAME" value="givenMinus10AndMinus_returnMinus1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,24 +112,6 @@
       <option name="PACKAGE_NAME" value="twomakesten" />
       <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoMakesTenTest.givenOneNegativeAndOtherNumbersNegative_returnFalse" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopmentPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twomakesten.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="twomakesten" />
-      <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
-      <option name="METHOD_NAME" value="givenOneNegativeAndOtherNumbersNegative_returnFalse" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindDiscountTest" />
+        <item itemvalue="JUnit.FindDiscountTest.givenMinus10AndMinus_returnMinus1" />
+        <item itemvalue="JUnit.FindDiscountTest.given1500And50_return750" />
         <item itemvalue="TestNG.TwoMakesTenTest" />
         <item itemvalue="TestNG.TwoMakesTenTest.givenOneNegativeAndOtherNumbersPositive_returnFalse" />
-        <item itemvalue="TestNG.TwoMakesTenTest.givenOneNegativeAndOtherNumbersNegative_returnFalse" />
-        <item itemvalue="TestNG.NameInverterTest" />
-        <item itemvalue="JUnit.NameInverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689329540960</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test case done for TwoMakesTen.java">
+      <created>1689745387049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689745387049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +223,8 @@
     <MESSAGE value="Completed FibonacciSeries" />
     <MESSAGE value="Completed nthEven number" />
     <MESSAGE value="completed NameInverter.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed NameInverter.java" />
+    <MESSAGE value="Test case done for TwoMakesTen.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case done for TwoMakesTen.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
