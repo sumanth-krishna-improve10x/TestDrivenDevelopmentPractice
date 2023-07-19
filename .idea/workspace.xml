@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="completed nthEvenNumber">
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="completed NameInverter.java">
+      <change afterPath="$PROJECT_DIR$/src/twomakesten/TwoMakesTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twomakesten/TwoMakesTenTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nameInverter/NameInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nameInverter/NameInverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nameInverter/NameInverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nameInverter/NameInverterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +46,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="twomakesten" />
       <recent name="evenNumberTest" />
       <recent name="nameInverter" />
       <recent name="scoringsystem" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NameInverterTest">
+  <component name="RunManager" selected="TestNG.TwoMakesTenTest">
     <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
@@ -64,22 +65,6 @@
       <option name="PACKAGE_NAME" value="nameInverter" />
       <option name="MAIN_CLASS_NAME" value="nameInverter.NameInverterTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest.givenEmpty_returnsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopmentPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nameInverter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nameInverter" />
-      <option name="MAIN_CLASS_NAME" value="nameInverter.NameInverterTest" />
-      <option name="METHOD_NAME" value="givenEmpty_returnsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,17 +86,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthEvenNumber.findNthEvenNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoMakesTenTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evenNumberTest.*" />
+          <option name="PATTERN" value="twomakesten.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="evenNumberTest" />
-      <option name="MAIN_CLASS_NAME" value="evenNumberTest.NthEvenNumber" />
-      <option name="METHOD_NAME" value="findNthEvenNumber" />
+      <option name="PACKAGE_NAME" value="twomakesten" />
+      <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoMakesTenTest.givenOneNegativeAndOtherNumbersNegative_returnFalse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopmentPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twomakesten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="twomakesten" />
+      <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
+      <option name="METHOD_NAME" value="givenOneNegativeAndOtherNumbersNegative_returnFalse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,17 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthEvenNumber.nothing" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoMakesTenTest.givenOneNegativeAndOtherNumbersPositive_returnFalse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evenNumberTest.*" />
+          <option name="PATTERN" value="twomakesten.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="evenNumberTest" />
-      <option name="MAIN_CLASS_NAME" value="evenNumberTest.NthEvenNumber" />
-      <option name="METHOD_NAME" value="nothing" />
+      <option name="PACKAGE_NAME" value="twomakesten" />
+      <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
+      <option name="METHOD_NAME" value="givenOneNegativeAndOtherNumbersPositive_returnFalse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TwoMakesTenTest" />
+        <item itemvalue="TestNG.TwoMakesTenTest.givenOneNegativeAndOtherNumbersPositive_returnFalse" />
+        <item itemvalue="TestNG.TwoMakesTenTest.givenOneNegativeAndOtherNumbersNegative_returnFalse" />
         <item itemvalue="TestNG.NameInverterTest" />
         <item itemvalue="JUnit.NameInverterTest" />
-        <item itemvalue="JUnit.NameInverterTest.givenEmpty_returnsEmpty" />
-        <item itemvalue="TestNG.NthEvenNumber.findNthEvenNumber" />
-        <item itemvalue="TestNG.NthEvenNumber.nothing" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689316017759</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="completed NameInverter.java">
+      <created>1689329540960</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689329540960</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +218,8 @@
     <MESSAGE value="created a new project Test Driven Development" />
     <MESSAGE value="Completed FibonacciSeries" />
     <MESSAGE value="Completed nthEven number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed nthEven number" />
+    <MESSAGE value="completed NameInverter.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed NameInverter.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
