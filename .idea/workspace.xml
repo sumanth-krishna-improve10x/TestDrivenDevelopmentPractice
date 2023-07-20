@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for TwoMakesTen.java">
-      <change afterPath="$PROJECT_DIR$/src/finddiscount/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finddiscount/FindDiscountTest.java" afterDir="false" />
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for FindDiscountTest.java">
+      <change afterPath="$PROJECT_DIR$/src/fizzbuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +46,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="fizzbuzz" />
       <recent name="finddiscount" />
       <recent name="twomakesten" />
       <recent name="evenNumberTest" />
       <recent name="nameInverter" />
-      <recent name="scoringsystem" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindDiscountTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="FindDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
@@ -65,22 +65,6 @@
       <option name="PACKAGE_NAME" value="finddiscount" />
       <option name="MAIN_CLASS_NAME" value="finddiscount.FindDiscountTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDiscountTest.given1500And50_return750" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopmentPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="finddiscount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="finddiscount" />
-      <option name="MAIN_CLASS_NAME" value="finddiscount.FindDiscountTest" />
-      <option name="METHOD_NAME" value="given1500And50_return750" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,48 +85,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoMakesTenTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twomakesten.*" />
+          <option name="PATTERN" value="fizzbuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="twomakesten" />
-      <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="fizzbuzz.FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoMakesTenTest.givenOneNegativeAndOtherNumbersPositive_returnFalse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.checkEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopmentPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="checkEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.givenZero_returnZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twomakesten.*" />
+          <option name="PATTERN" value="fizzbuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="twomakesten" />
-      <option name="MAIN_CLASS_NAME" value="twomakesten.TwoMakesTenTest" />
-      <option name="METHOD_NAME" value="givenOneNegativeAndOtherNumbersPositive_returnFalse" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="fizzbuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="givenZero_returnZero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.givenZero_returnZero" />
+        <item itemvalue="JUnit.FizzBuzzTest.checkEmpty" />
         <item itemvalue="JUnit.FindDiscountTest" />
         <item itemvalue="JUnit.FindDiscountTest.givenMinus10AndMinus_returnMinus1" />
-        <item itemvalue="JUnit.FindDiscountTest.given1500And50_return750" />
-        <item itemvalue="TestNG.TwoMakesTenTest" />
-        <item itemvalue="TestNG.TwoMakesTenTest.givenOneNegativeAndOtherNumbersPositive_returnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689745387049</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test case done for FindDiscountTest.java">
+      <created>1689758048409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689758048409</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +221,8 @@
     <MESSAGE value="Completed nthEven number" />
     <MESSAGE value="completed NameInverter.java" />
     <MESSAGE value="Test case done for TwoMakesTen.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case done for TwoMakesTen.java" />
+    <MESSAGE value="Test case done for FindDiscountTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case done for FindDiscountTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
