@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for FizzBuzz.java">
-      <change afterPath="$PROJECT_DIR$/src/convertagetodays/AgeIntoDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/convertagetodays/AgeToDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoursmintuesintosecs/HoursAndMinutesIntoSeconds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoursmintuesintosecs/HoursMinutesInToSecsTest.java" afterDir="false" />
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for AgeToDaysTest.java">
+      <change afterPath="$PROJECT_DIR$/src/divisiblebyfive/DivisibleByFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/divisiblebyfive/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +46,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="divisiblebyfive" />
       <recent name="convertagetodays" />
       <recent name="hoursmintuesintosecs" />
       <recent name="fizzbuzz" />
       <recent name="finddiscount" />
-      <recent name="twomakesten" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AgeToDaysTest">
+  <component name="RunManager" selected="JUnit.DivisibleByFive">
     <configuration name="AgeToDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
@@ -103,22 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgeToDaysTest.givenNegativeNumber_returnMinusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopmentPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="convertagetodays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="convertagetodays" />
-      <option name="MAIN_CLASS_NAME" value="convertagetodays.AgeToDaysTest" />
-      <option name="METHOD_NAME" value="givenNegativeNumber_returnMinusOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AgeToDaysTest.givenOne_return365" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
@@ -135,13 +117,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DivisibleByFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopmentPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divisiblebyfive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="divisiblebyfive" />
+      <option name="MAIN_CLASS_NAME" value="divisiblebyfive.DivisibleByFive" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivisibleByFive" />
         <item itemvalue="JUnit.AgeToDaysTest" />
         <item itemvalue="JUnit.AgeToDaysTest.given2023_return738395" />
         <item itemvalue="JUnit.AgeToDaysTest.given23_return8395" />
         <item itemvalue="JUnit.AgeToDaysTest.givenOne_return365" />
-        <item itemvalue="JUnit.AgeToDaysTest.givenNegativeNumber_returnMinusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689834839123</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test case done for AgeToDaysTest.java">
+      <created>1689846574707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689846574707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +243,8 @@
     <MESSAGE value="Test case done for TwoMakesTen.java" />
     <MESSAGE value="Test case done for FindDiscountTest.java" />
     <MESSAGE value="Test case done for FizzBuzz.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case done for FizzBuzz.java" />
+    <MESSAGE value="Test case done for AgeToDaysTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case done for AgeToDaysTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
