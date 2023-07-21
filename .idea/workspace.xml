@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for AgeToDaysTest.java">
-      <change afterPath="$PROJECT_DIR$/src/divisiblebyfive/DivisibleByFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/divisiblebyfive/Division.java" afterDir="false" />
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for DivisibleByFive.java">
+      <change afterPath="$PROJECT_DIR$/src/bowling/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bowling/GameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,99 +46,100 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="bowling" />
       <recent name="divisiblebyfive" />
       <recent name="convertagetodays" />
       <recent name="hoursmintuesintosecs" />
       <recent name="fizzbuzz" />
-      <recent name="finddiscount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DivisibleByFive">
-    <configuration name="AgeToDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GameTest">
+    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertagetodays.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertagetodays" />
-      <option name="MAIN_CLASS_NAME" value="convertagetodays.AgeToDaysTest" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgeToDaysTest.given2023_return738395" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.gutterGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertagetodays.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertagetodays" />
-      <option name="MAIN_CLASS_NAME" value="convertagetodays.AgeToDaysTest" />
-      <option name="METHOD_NAME" value="given2023_return738395" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
+      <option name="METHOD_NAME" value="gutterGame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgeToDaysTest.given23_return8395" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.oneSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertagetodays.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertagetodays" />
-      <option name="MAIN_CLASS_NAME" value="convertagetodays.AgeToDaysTest" />
-      <option name="METHOD_NAME" value="given23_return8395" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
+      <option name="METHOD_NAME" value="oneSpare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgeToDaysTest.givenOne_return365" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.oneStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertagetodays.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertagetodays" />
-      <option name="MAIN_CLASS_NAME" value="convertagetodays.AgeToDaysTest" />
-      <option name="METHOD_NAME" value="givenOne_return365" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
+      <option name="METHOD_NAME" value="oneStrike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisibleByFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.scoreBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="divisiblebyfive.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="divisiblebyfive" />
-      <option name="MAIN_CLASS_NAME" value="divisiblebyfive.DivisibleByFive" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
+      <option name="METHOD_NAME" value="scoreBoard" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DivisibleByFive" />
-        <item itemvalue="JUnit.AgeToDaysTest" />
-        <item itemvalue="JUnit.AgeToDaysTest.given2023_return738395" />
-        <item itemvalue="JUnit.AgeToDaysTest.given23_return8395" />
-        <item itemvalue="JUnit.AgeToDaysTest.givenOne_return365" />
+        <item itemvalue="JUnit.GameTest" />
+        <item itemvalue="JUnit.GameTest.scoreBoard" />
+        <item itemvalue="JUnit.GameTest.oneStrike" />
+        <item itemvalue="JUnit.GameTest.oneSpare" />
+        <item itemvalue="JUnit.GameTest.gutterGame" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689846574707</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Test case done for DivisibleByFive.java">
+      <created>1689851295514</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689851295514</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +252,8 @@
     <MESSAGE value="Test case done for FindDiscountTest.java" />
     <MESSAGE value="Test case done for FizzBuzz.java" />
     <MESSAGE value="Test case done for AgeToDaysTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case done for AgeToDaysTest.java" />
+    <MESSAGE value="Test case done for DivisibleByFive.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case done for DivisibleByFive.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
