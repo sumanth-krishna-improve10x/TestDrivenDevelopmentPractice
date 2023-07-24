@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for DivisibleByFive.java">
-      <change afterPath="$PROJECT_DIR$/src/bowling/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bowling/GameTest.java" afterDir="false" />
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for GameTest.java">
+      <change afterPath="$PROJECT_DIR$/src/templerun/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templerun/CoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templerun/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templerun/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,88 +48,87 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="templerun" />
       <recent name="bowling" />
       <recent name="divisiblebyfive" />
       <recent name="convertagetodays" />
       <recent name="hoursmintuesintosecs" />
-      <recent name="fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
-    <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PlayerTest.givenHealth101_thenThrowsInvalidHealthException">
+    <configuration name="CoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bowling.*" />
+          <option name="PATTERN" value="templerun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bowling" />
-      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
+      <option name="PACKAGE_NAME" value="templerun" />
+      <option name="MAIN_CLASS_NAME" value="templerun.CoinTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.gutterGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoinTest.given10_whenGetValueCalled_thenReturn10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bowling.*" />
+          <option name="PATTERN" value="templerun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bowling" />
-      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
-      <option name="METHOD_NAME" value="gutterGame" />
+      <option name="PACKAGE_NAME" value="templerun" />
+      <option name="MAIN_CLASS_NAME" value="templerun.CoinTest" />
+      <option name="METHOD_NAME" value="given10_whenGetValueCalled_thenReturn10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.oneSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CoinTest.given20_whenGetValueCalled_thenReturn20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bowling.*" />
+          <option name="PATTERN" value="templerun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bowling" />
-      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
-      <option name="METHOD_NAME" value="oneSpare" />
+      <option name="PACKAGE_NAME" value="templerun" />
+      <option name="MAIN_CLASS_NAME" value="templerun.CoinTest" />
+      <option name="METHOD_NAME" value="given20_whenGetValueCalled_thenReturn20" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.oneStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bowling.*" />
+          <option name="PATTERN" value="templerun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bowling" />
-      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
-      <option name="METHOD_NAME" value="oneStrike" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="templerun" />
+      <option name="MAIN_CLASS_NAME" value="templerun.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.scoreBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.givenHealth101_thenThrowsInvalidHealthException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bowling.*" />
+          <option name="PATTERN" value="templerun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bowling" />
-      <option name="MAIN_CLASS_NAME" value="bowling.GameTest" />
-      <option name="METHOD_NAME" value="scoreBoard" />
+      <option name="PACKAGE_NAME" value="templerun" />
+      <option name="MAIN_CLASS_NAME" value="templerun.PlayerTest" />
+      <option name="METHOD_NAME" value="givenHealth101_thenThrowsInvalidHealthException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.GameTest.scoreBoard" />
-        <item itemvalue="JUnit.GameTest.oneStrike" />
-        <item itemvalue="JUnit.GameTest.oneSpare" />
-        <item itemvalue="JUnit.GameTest.gutterGame" />
+        <item itemvalue="JUnit.PlayerTest.givenHealth101_thenThrowsInvalidHealthException" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.CoinTest" />
+        <item itemvalue="JUnit.CoinTest.given10_whenGetValueCalled_thenReturn10" />
+        <item itemvalue="JUnit.CoinTest.given20_whenGetValueCalled_thenReturn20" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689851295514</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test case done for GameTest.java">
+      <created>1689932643830</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689932643830</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +261,8 @@
     <MESSAGE value="Test case done for FizzBuzz.java" />
     <MESSAGE value="Test case done for AgeToDaysTest.java" />
     <MESSAGE value="Test case done for DivisibleByFive.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case done for DivisibleByFive.java" />
+    <MESSAGE value="Test case done for GameTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case done for GameTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
