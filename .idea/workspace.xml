@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for CoinTest.java and PlayerTest.java">
-      <change afterPath="$PROJECT_DIR$/src/templerun/FireBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templerun/FireBallTest.java" afterDir="false" />
+    <list default="true" id="adaec945-f5c2-40d4-833d-8edebcaecfe1" name="Changes" comment="Test case done for FireBallTest.java">
+      <change afterPath="$PROJECT_DIR$/src/templerun/SpikePit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templerun/SpikePitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templerun/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/templerun/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <recent name="hoursmintuesintosecs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FireBallTest">
+  <component name="RunManager" selected="JUnit.SpikePitTest.given100_whenTrapMethodCalled_displayTrapMessage">
     <configuration name="FireBallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
@@ -70,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FireBallTest.given50_whenRollMethodCalled_displayRollingMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpikePitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
@@ -79,29 +78,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="templerun" />
-      <option name="MAIN_CLASS_NAME" value="templerun.FireBallTest" />
-      <option name="METHOD_NAME" value="given50_whenRollMethodCalled_displayRollingMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopmentPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="templerun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="templerun" />
-      <option name="MAIN_CLASS_NAME" value="templerun.PlayerTest" />
+      <option name="MAIN_CLASS_NAME" value="templerun.SpikePitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.givenNameEmpty_whenGetNameCalled_returnEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpikePitTest.given100_whenTrapMethodCalled_displayTrapMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="templerun" />
-      <option name="MAIN_CLASS_NAME" value="templerun.PlayerTest" />
-      <option name="METHOD_NAME" value="givenNameEmpty_whenGetNameCalled_returnEmpty" />
+      <option name="MAIN_CLASS_NAME" value="templerun.SpikePitTest" />
+      <option name="METHOD_NAME" value="given100_whenTrapMethodCalled_displayTrapMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.givenNoHealth_whenGetHealthCalled_thenReturns100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpikePitTest.given101_throwInValidWidthException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopmentPractice" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +109,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="templerun" />
-      <option name="MAIN_CLASS_NAME" value="templerun.PlayerTest" />
-      <option name="METHOD_NAME" value="givenNoHealth_whenGetHealthCalled_thenReturns100" />
+      <option name="MAIN_CLASS_NAME" value="templerun.SpikePitTest" />
+      <option name="METHOD_NAME" value="given101_throwInValidWidthException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpikePitTest.givenMinusOne_throwInvalidWidthException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopmentPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="templerun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="templerun" />
+      <option name="MAIN_CLASS_NAME" value="templerun.SpikePitTest" />
+      <option name="METHOD_NAME" value="givenMinusOne_throwInvalidWidthException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpikePitTest.given100_whenTrapMethodCalled_displayTrapMessage" />
+        <item itemvalue="JUnit.SpikePitTest" />
+        <item itemvalue="JUnit.SpikePitTest.givenMinusOne_throwInvalidWidthException" />
+        <item itemvalue="JUnit.SpikePitTest.given101_throwInValidWidthException" />
         <item itemvalue="JUnit.FireBallTest" />
-        <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.PlayerTest.givenNameEmpty_whenGetNameCalled_returnEmpty" />
-        <item itemvalue="JUnit.PlayerTest.givenNoHealth_whenGetHealthCalled_thenReturns100" />
-        <item itemvalue="JUnit.FireBallTest.given50_whenRollMethodCalled_displayRollingMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690226110517</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test case done for FireBallTest.java">
+      <created>1690260410274</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690260410274</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +275,8 @@
     <MESSAGE value="Test case done for DivisibleByFive.java" />
     <MESSAGE value="Test case done for GameTest.java" />
     <MESSAGE value="Test case done for CoinTest.java and PlayerTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case done for CoinTest.java and PlayerTest.java" />
+    <MESSAGE value="Test case done for FireBallTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case done for FireBallTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
